@@ -16,7 +16,7 @@ deploy:
   env: "docker-env"
   bucket_name: elasticbeanstalk-us-west-2-706913327366
   bucket_path: "docker-with-stephen-grider"
-      on:
-        branch: master
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: "$AWS_SECRET_KEY"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
